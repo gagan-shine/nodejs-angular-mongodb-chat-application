@@ -1,0 +1,4 @@
+node_modules
+public/uploads
+frontend/node_modules
+.env
