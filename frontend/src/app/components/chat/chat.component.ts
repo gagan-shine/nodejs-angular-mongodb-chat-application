@@ -4,12 +4,12 @@ import { Subscription } from 'rxjs'
 import { ChatService } from '../../services/chat.service';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  selector: 'app-chat',
+  templateUrl: './chat.component.html',
+  styleUrls: ['./chat.component.css']
 })
 
-export class LoginComponent implements OnInit, AfterViewChecked{
+export class ChatComponent implements OnInit, AfterViewChecked{
 	@ViewChild('scrollMe') private myScrollContainer: ElementRef;
 	private searchEventSubscription: Subscription;
 	submitted=false;
